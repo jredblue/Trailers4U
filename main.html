@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Trailers4U</title>
+		
+		
+		<link rel="stylesheet" href="main.css">
+		
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+		<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Gruppo" />
+		
+		<script type="text/javascript" src="main.js"></script>
+		
+	</head>
+ 	<body>
+		<div id="websiteTitle" >
+			<h1>T R A I L E R S 4 U</h1>
+		</div>
+			<div id="navbar">
+				<a id="theLastJediNav" onclick="selectStarWarsTheLastJedi()" >
+					<h1>The Last Jedi</h1>
+					<img class="navimage" src="starwarsthelastjedi.jpg"></img>
+				</a>
+  				<a id="dunkirkNav" onclick="selectDunkirk()" >
+					<h1>Dunkirk</h1>
+					<img class="navimage" src="dunkirkimage.jpg"></img>
+				</a>
+  				<a id="valerianNav" onclick="selectValerian()" >
+					<h1>Valerian</h1>
+					<img class="navimage" src="valerian2.jpg"></img>
+				</a>
+  				<a id="ragnarokNav" onclick="selectThorRagnarok()" >
+					<h1>Thor: Ragnarok</h1>
+					<img class="navimage" src="thorragnaroknav.jpg"></img>
+				</a>
+  				<a id="bladeRunner2049Nav" onclick="selectBladeRunner2049()" >
+					<h1>Blade Runner 2049</h1>
+					<img class="navimage" src="bladerunnernav.png"></img>
+				</a>
+				<a id="theLastJediNav" onclick="selectStarWarsTheLastJedi()" >
+					<h1>The Last Jedi</h1>
+					<img class="navimage" src="starwarsthelastjedi.jpg"></img>
+				</a>
+  				<a id="dunkirkNav" onclick="selectDunkirk()" >
+					<h1>Dunkirk</h1>
+					<img class="navimage" src="dunkirkimage.jpg"></img>
+				</a>
+  				<a id="valerianNav" onclick="selectValerian()" >
+					<h1>Valerian</h1>
+					<img class="navimage" src="valerian2.jpg"></img>
+				</a>
+  				<a id="ragnarokNav" onclick="selectThorRagnarok()" >
+					<h1>Thor: Ragnarok</h1>
+					<img class="navimage" src="thorragnaroknav.jpg"></img>
+				</a>
+  				<a id="bladeRunner2049Nav" onclick="selectBladeRunner2049()" >
+					<h1>Blade Runner 2049</h1>
+					<img class="navimage" src="bladerunnernav.png"></img>
+				</a>
+				<a id="theLastJediNav" onclick="selectStarWarsTheLastJedi()" >
+					<h1>The Last Jedi</h1>
+					<img class="navimage" src="starwarsthelastjedi.jpg"></img>
+				</a>
+  				<a id="dunkirkNav" onclick="selectDunkirk()" >
+					<h1>Dunkirk</h1>
+					<img class="navimage" src="dunkirkimage.jpg"></img>
+				</a>
+  				<a id="valerianNav" onclick="selectValerian()" >
+					<h1>Valerian</h1>
+					<img class="navimage" src="valerian2.jpg"></img>
+				</a>
+  				<a id="ragnarokNav" onclick="selectThorRagnarok()" >
+					<h1>Thor: Ragnarok</h1>
+					<img class="navimage" src="thorragnaroknav.jpg"></img>
+				</a>
+  				<a id="bladeRunner2049Nav" onclick="selectBladeRunner2049()" >
+					<h1>Blade Runner 2049</h1>
+					<img class="navimage" src="bladerunnernav.png"></img>
+				</a>
+				<a onclick="selectStarWarsTheLastJedi()" >The Last Jedi</a>
+  				<a onclick="selectDunkirk()" >Dunkirk</a>
+  				<a onclick="selectValerian()" >Valerian</a>
+  				<a onclick="selectThorRagnarok()" >Thor: Ragnarok</a>
+  				<a onclick="selectBladeRunner2049()" >Blade Runner 2049</a>
+				<a onclick="selectStarWarsTheLastJedi()" >The Last Jedi</a>
+  				<a onclick="selectDunkirk()" >Dunkirk</a>
+  				<a onclick="selectValerian()" >Valerian</a>
+  				<a onclick="selectThorRagnarok()" >Thor: Ragnarok</a>
+  				<a onclick="selectBladeRunner2049()" >Blade Runner 2049</a>
+			</div>
+			<i class="fa fa-chevron-right" onmouseover="setInterval(scrollNavBarRight(), 100);" onmouseout="stopScrollNavBarRight()" style="float:right;display:inline-block;background-color:black;color:white;position:relative;top:-170px;padding-right: 20px; padding-left: 20px;padding-top:76px;padding-bottom:76px;" ></i>
+			<i class="fa fa-chevron-left" onmouseover="setInterval(scrollNavBarLeft(), 100);" onmouseout="stopScrollNavBarLeft()" style="float:left;display:inline-block;background-color:black;color:white;position:relative;top:-170px;padding-right: 20px; padding-left: 20px;padding-top:76px;padding-bottom:76px;"></i>
+		<div id="currMovie">
+			<h1 id="title" style="position:relative;top:15px;float:center;">Star Wars VII: The Last Jedi</h1>
+			<div id="content" style="position:relative;top:20px;">
+				<div id="currentvideo">
+					<p id="currentVideoTitle">Star Wars: The Last Jedi Official Teaser</p>
+					<iframe id="trailer" width="560" height="315" src="https://www.youtube.com/embed/zB4I68XVPzQ"  frameborder="0" allowfullscreen></iframe>
+				</div>
+				<div id="videoSelection">
+					<div id="otherVideo1" onclick="selectOtherVideo1()">
+						<h1 id="otherVideoTitle1">Star Wars: The Last Jedi Behind The Scenes</h1>
+						<img id="otherVideoImage1" width="140" height="75" src="https://i.ytimg.com/vi/ye6GCY_vqYk/maxresdefault.jpg"></img>
+					</div>
+					<div id="otherVideo2" onclick="selectOtherVideo2()">
+						<h1 id="otherVideoTitle2">Star Wars THE LAST JEDI Trailer Breakdown - Easter Eggs & Predictions</h1>
+						<img id="otherVideoImage2" src="https://i.ytimg.com/vi/b89T74ToK9E/maxresdefault.jpg"></img>
+					</div>
+				</div>
+				<div id="cast">
+					<table>
+						<tr>
+							<th style="height:35px;width:35px;padding:0px;"></th>
+							<th>Actor/Actress</th>
+							<th>Character</th>
+						</tr>
+						<tr>
+							<td style="height:35px;width:35px;padding:0px;"><img id="image1" src="daisyridley.jpg"></img></td>
+							<td id="actor1">Daisy Ridley</td>
+							<td id="character1">Rey</td>
+						</tr>
+						<tr>
+							<td style="height:35px;width:35px;padding:0px;"><img id="image2" src="johnboyega.jpg"></img></td>
+							<td id="actor2">John Boyega</td>
+							<td id="character2">Finn</td>
+						</tr>
+						<tr>
+							<td style="height:35px;width:35px;padding:0px;"><img id="image3" src="markhamill.jpg"></img></td>
+							<td id="actor3">Mark Hamill</td>
+							<td id="character3">Luke Skywalker</td>
+						</tr>
+						<tr>
+							<td style="height:35px;width:35px;padding:0px;"><img id="image4" src="carriefisher.jpg"></img></td>
+							<td id="actor4">Carrie Fisher</td>
+							<td id="character4">Leia Organa</td>
+						</tr>
+						<tr>
+							<td style="height:35px;width:35px;padding:0px;"><img id="image5" src="adamdriver.jpg"></img></td>
+							<td id="actor5">Adam Driver</td>
+							<td id="character5">Kylo Ren</td>
+						</tr>
+						<tr>
+							<td style="height:35px;width:35px;padding:0px;"><img id="image6" src="oscarisaac.jpg"></img></td>
+							<td id="actor6">Oscar Isaac</td>
+							<td id="character6">Poe Dameron</td>
+						</tr>
+						<tr>
+							<td style="height:35px;width:35px;padding:0px;"><img id="image7" src="lupitanyongo.jpg"></img></td>
+							<td id="actor7">Lupita Nuyong'o</td>
+							<td id="character7">Maz Kanata</td>
+						</tr>
+					</table>
+				</div>
+				<div id="nextMovie" onclick="changeMovie()" style="cursor:pointer;text-align:center;position:relative;top:-400px;right:150px;float:right;color:white;font-size:10px;font-family:Tahoma, Geneva, sans-serif;">
+					<h1>Next Movie</h1>
+					<i class="fa fa-angle-double-right" style="font-size:40px;"></i>
+				</div>
+				
+				
+			</div>
+			
+		</div>
+		
+
+	</body>
+</html>

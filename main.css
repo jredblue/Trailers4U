@@ -1,0 +1,258 @@
+body {
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+    background-color: black;
+	margin: 0px;
+	
+}
+#websiteTitle{
+	color: red;
+	text-align: center;
+	float: center;
+	font-size: 10px;
+	letter-spacing: 10px;
+	font-family: Gruppo, Ariel, sans-serif;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 700;
+	line-height: 26.4px;
+}
+#title {
+	word-spacing: 10px;
+	letter-spacing: 4px;
+	color: white;
+	text-align: center;
+	font-family: Gruppo, Ariel, sans-serif;
+	font-size: 50px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bold;
+	line-height: 100%;
+}
+i:hover {
+	color: goldenrod;
+}
+#currMovie {
+	position: relative;
+	top: 0px;
+	height: 1500px;
+	background-image: url("starwarsthelastjedi.jpg");
+	border: 3px solid black;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	margin-right: 0px;
+}
+#trailer{
+	margin: 0 auto;
+   	display: block;
+	
+}
+#currentVideoTitle{
+	text-align:center;
+	font-family: Gruppo, Ariel, sans-serif;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	font-size:15px;
+	color:white;
+}
+#videoSelection{
+	display: block;
+	position: relative;
+	float: right;
+	top: -315px;
+	left: 40 px;
+	width: 320px;
+	margin-right: 10px;
+	margin-left: 0px;
+	padding: 0 auto;
+}
+#otherVideo1{
+	background-color: #333;
+	backgroound-position: center;
+	display: block;
+	height: 75px;
+	position: relative;
+	top: 0px;
+	margin-bottom: 10px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+	padding: 0 auto;
+}
+#otherVideo2{
+	background-color: #333;
+	backgroound-position: center;
+	display: block;
+	height: 75px;
+	position: relative;
+	top: 0px;
+	margin-bottom: 10px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+	padding: 0 auto;
+}
+#otherVideo1:hover{
+	background-color: red;
+	cursor: pointer;
+}
+#otherVideo2:hover{
+	background-color: red;
+	cursor: pointer;
+}
+#otherVideoImage1{
+	margin: 0 auto;
+	float: left;
+	overflow: hidden;
+	display: inline-block
+}
+#otherVideoImage2{
+	width: 140px;
+	height: 100%;
+	margin: 0 auto;
+	padding: 0 auto;
+	float: left;
+	overflow: hidden;
+	display: inline-block
+}
+#otherVideoTitle1{
+	margin: 0 auto;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	height: 75px; 
+	float: right;
+	display: inline-block;
+	width: 160px;
+	overflow: auto;
+	font-family: Gruppo, Ariel, sans-serif;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	font-size:13px;
+	color:white;
+}
+#otherVideoTitle2{
+	margin: 0 auto;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	height: 75px; 
+	float: right;
+	display: inline-block;
+	width: 160px;
+	overflow: auto;
+	font-family: Gruppo, Ariel, sans-serif;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	font-size:13px;
+	color:white;
+}
+#navbar {
+	overflow-x: auto;
+	white-space: nowrap;
+	background-color: black;
+	padding-right: 35px;
+	padding-left: 35px;
+
+}
+#navbar::-webkit-scrollbar { 
+	display: none; 
+}
+#navbar a h1{
+	padding-top: 0px;
+	padding-bottom: 0px;
+	color: white;
+    	text-align: center;
+	font-size: 15px;
+	font-family: Gruppo, Ariel, sans-serif;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 700;
+}
+.navimage{
+	padding: 0;
+	margin: 0 auto;
+	width: 170px;
+	height: 120px;
+}
+#navbar a {
+	border-bottom: 3px solid black;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding-top: 0px;
+    padding-bottom: 5px;
+	padding-left: 8px;
+	padding-right: 8px;
+	margin-bottom: 5px;
+    text-decoration: none;
+	cursor:pointer;
+	font-family: Gruppo, Ariel, sans-serif;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 700;
+	line-height: 16px;
+}
+
+#theLastJediNav:hover {
+	border-bottom-color: red;
+}
+#dunkirkNav:hover {
+	border-bottom-color: turquoise;
+}
+#valerianNav:hover {
+	border-bottom-color: gold;
+}
+#ragnarokNav:hover {
+	border-bottom-color: lime;
+}
+#bladeRunner2049Nav:hover {
+	border-bottom-color: aqua;
+}
+table {
+	cursor: default;
+    border-collapse: collapse;
+    width: 60px;
+    position: relative;
+    top: -305px;
+	left: 25px;
+}
+
+td, th {
+	color:black;
+    border: 1px solid black;
+    text-align: left;
+    padding: 8px;
+}
+
+tr {
+    background-color: white;
+}
+tr img{
+	display: block;
+	height: 100%;
+	width: 35px;
+}
+th {
+	font-size:20px;
+	font-family: Gruppo, Ariel, sans-serif;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 700;
+	line-height: 16px;
+}
+td {
+	font-size:12px;
+	font-family: Gruppo, Ariel, sans-serif;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 12px;
+}
